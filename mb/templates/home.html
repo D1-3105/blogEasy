@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<title>Blog app</title>
+<body>
+<h1>CURRENT POSTS</h1>
+<ul>
+{%for post in posts%}
+    <li>{{post.text}}</li>
+{%endfor%}
+</ul>
+</body>
+
+</html>
